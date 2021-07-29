@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+.col-12 h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+  
+}
+.col-12{
+    padding-left:30px;
+}
+.heading{
+    margin-bottom: 25px;
+}
+.col-12 p{
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight:600;
+    
+}
+.btn-primary{
+    border-radius: 55px;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    background-color: blue;
+    font-weight: bold;
+    border: 1px solid blue;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 15px;
+    
+}
+.btn-primary:hover{
+    background-color: blue;
+    
+}
+.col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+    margin-top: 95px;
+    margin-left: 50px;
+}
+.AiFillPlayCircle{
+    font-family: 'Poppins', sans-serif;
+    background: blue;
+    margin-top: -3px;
+    size: a5;
+    font-size: 25px;
+}
+#button{
+    font-family: 'Poppins', sans-serif;
+    color: blue;
+    margin-left: 20px;
+    border-radius: 55px;
+    border: 1px solid white;
+    margin-top: 15px;
+}
+#button b{
+    padding-top: 10px;
+}
+.image{
+    filter: grayscale(100%);
+    margin-right: 10px;
+    
+}
+.container p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+#integrations{
+    padding-left: 80px;
+}
+.figure{
+    margin-left: 90px;
+    margin-left: 110px;
+    margin-top: -47px;
+    padding-left: 100px;
+}
+#image0{
+    margin-left: 2px;
+}
+#image1{
+    margin-top: -15px;
+    margin-left: 10px;
+}
+#image2{
+    margin-top: -10px;
+    margin-left: 12px;
+}
+#image3{
+   margin-top: -18px;
+   margin-left: 12px;
+}
+
+/* media queries */
+@media only screen and (max-width: 600px) {
+    .col-md-6{
+        flex: 0 0 auto;
+        width: 100%;
+        margin-top: 38px;
+        margin-left: 1px;
+    }
+    .col-6 img{
+        width: 345px;
+        height: 425px;
+    }
+    #integrations {
+        padding-left: 16px;
+    }
+    .figure{
+        margin-left: 18px;
+    }
+}
+@media only screen and (width: 320px){
+    #image3{
+        margin-top: -1px;
+    }
+}
+@media only screen and (width: 768px) {
+    .col-md-6 {
+        flex: 0 0 auto;
+        width: 100%;
+        margin-top: 55px;
+        margin-left: 80px;
+    }
+    .col-6 img{
+        
+        margin-left: 84px;
+    }
+}

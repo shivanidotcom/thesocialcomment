@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+.btn-outline-primary{
+    border-radius: 55px;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: blue;
+    font-weight: bold;
+    border: 1px solid blue;
+}
+.btn-outline-primary:hover{
+    background-color: blue;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(0,0,0,.9);
+    font-family: 'Poppins';
+    margin-left: 50px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
